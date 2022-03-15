@@ -10,18 +10,18 @@ public class Prime_or_not
         int temp =0;
      for (int i = 2; i<n-1; i++)
      {
-         if (n % 2 ==0)
+         if (n % i ==0)
          {
              temp = temp +1;
          }
      }
          if(temp>1)
          {
-             System.out.println("this is not prime");
+             System.out.println("this is prime");
          }
          else
          {
-             System.out.println("this is prime");
+             System.out.println("this is not prime");
          }
     }
 }
