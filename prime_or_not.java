@@ -15,7 +15,7 @@ public class Prime_or_not
              temp = temp +1;
          }
      }
-         if(temp>1)
+         if(temp>0)
          {
              System.out.println("this is prime");
          }
